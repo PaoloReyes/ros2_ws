@@ -1,0 +1,25 @@
+[0.465s] Invoking command in '/home/paolo/ros2_ws/src/line_follower': PYTHONPATH=/home/paolo/ros2_ws/build/line_follower/prefix_override:/home/paolo/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/paolo/ros2_ws/build/line_follower/build install --record /home/paolo/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data
+[0.582s] running egg_info
+[0.582s] writing ../../build/line_follower/line_follower.egg-info/PKG-INFO
+[0.582s] writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt
+[0.582s] writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt
+[0.582s] writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt
+[0.582s] writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt
+[0.583s] reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.584s] copying line_follower/traffic_light_identification.py -> /home/paolo/ros2_ws/build/line_follower/build/lib/line_follower
+[0.584s] running install
+[0.584s] running install_lib
+[0.584s] copying /home/paolo/ros2_ws/build/line_follower/build/lib/line_follower/traffic_light_identification.py -> /home/paolo/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower
+[0.585s] byte-compiling /home/paolo/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower/traffic_light_identification.py to traffic_light_identification.cpython-310.pyc
+[0.585s] running install_data
+[0.585s] running install_egg_info
+[0.586s] removing '/home/paolo/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[0.586s] Copying ../../build/line_follower/line_follower.egg-info to /home/paolo/ros2_ws/install/line_follower/lib/python3.10/site-packages/line_follower-0.0.0-py3.10.egg-info
+[0.587s] running install_scripts
+[0.599s] Installing line_follower script to /home/paolo/ros2_ws/install/line_follower/lib/line_follower
+[0.599s] Installing traffic_light_identification script to /home/paolo/ros2_ws/install/line_follower/lib/line_follower
+[0.599s] writing list of installed files to '/home/paolo/ros2_ws/build/line_follower/install.log'
+[0.619s] Invoked command in '/home/paolo/ros2_ws/src/line_follower' returned '0': PYTHONPATH=/home/paolo/ros2_ws/build/line_follower/prefix_override:/home/paolo/ros2_ws/install/line_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/paolo/ros2_ws/build/line_follower/build install --record /home/paolo/ros2_ws/build/line_follower/install.log --single-version-externally-managed install_data

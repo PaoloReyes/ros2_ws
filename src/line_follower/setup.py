@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'traffic_light_identification = line_follower.traffic_light_identification:main',
+            'line_follower = line_follower.line_follower:main',
         ],
     },
 )
