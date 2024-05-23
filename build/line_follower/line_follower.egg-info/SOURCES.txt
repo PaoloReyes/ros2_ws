@@ -8,6 +8,8 @@ setup.py
 ../../build/line_follower/line_follower.egg-info/requires.txt
 ../../build/line_follower/line_follower.egg-info/top_level.txt
 ../../build/line_follower/line_follower.egg-info/zip-safe
+config/traffic_lights.yaml
+launch/line_follower_launch.py
 line_follower/__init__.py
 line_follower/line_follower.py
 line_follower/traffic_light_identification.py

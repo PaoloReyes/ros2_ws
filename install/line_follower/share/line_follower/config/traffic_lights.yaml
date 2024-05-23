@@ -1,0 +1,9 @@
+traffic_light_identification:
+  ros__parameters:
+    red_lower: [152, 31, 205]
+    red_upper: [192, 91, 255]
+    green_low: [64, 130, 130]
+    green_high: [99, 190, 190]
+    yellow_low: [20, 15, 212]
+    yellow_high: [50, 40, 245]
+    area_threshold: 20

@@ -4,7 +4,8 @@ from rclpy.node import Node
 
 class LineFollower(Node):
     def __init__(self):
-        pass
+        super().__init__('line_follower')
+        self.get_logger().info('Line Follower Node started')
 
 def main(args=None):
     rclpy.init()
