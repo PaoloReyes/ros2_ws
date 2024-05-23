@@ -6,4 +6,4 @@ traffic_light_identification:
     green_high: [99, 190, 190]
     yellow_low: [20, 15, 212]
     yellow_high: [50, 40, 245]
-    area_threshold: 20
+    area_threshold: 30
