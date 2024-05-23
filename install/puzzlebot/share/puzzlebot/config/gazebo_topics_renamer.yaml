@@ -1,0 +1,4 @@
+gazebo_topics_renamer:
+  ros__parameters:
+    topics_map: ['Twist;model/Puzzlebot/cmd_vel;/cmd_vel', 
+                  'Odometry;model/Puzzlebot/odometry;/odometry']

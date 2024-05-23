@@ -1,0 +1,39 @@
+running egg_info
+writing ../../build/puzzlebot/puzzlebot.egg-info/PKG-INFO
+writing dependency_links to ../../build/puzzlebot/puzzlebot.egg-info/dependency_links.txt
+writing entry points to ../../build/puzzlebot/puzzlebot.egg-info/entry_points.txt
+writing requirements to ../../build/puzzlebot/puzzlebot.egg-info/requires.txt
+writing top-level names to ../../build/puzzlebot/puzzlebot.egg-info/top_level.txt
+reading manifest file '../../build/puzzlebot/puzzlebot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/puzzlebot/puzzlebot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying puzzlebot/wheel_transforms_publisher.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot
+copying puzzlebot/__init__.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot
+copying puzzlebot/hard_switch_control.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot
+copying puzzlebot/submodules/__init__.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot/submodules
+copying puzzlebot/submodules/units_utils.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot/submodules
+running install
+running install_lib
+copying /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot/hard_switch_control.py -> /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot
+byte-compiling /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/hard_switch_control.py to hard_switch_control.cpython-310.pyc
+running install_data
+copying resource/puzzlebot -> /home/paolo/ros2_ws/install/puzzlebot/share/ament_index/resource_index/packages
+copying package.xml -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot
+copying launch/hard_switch_obstacle_avoidance_launch.py -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/launch
+copying config/wheel_transforms_publisher.yaml -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config
+copying config/autonomous_robot_constants.yaml -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config
+copying meshes/left_wheel.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+copying meshes/crazy_wheel.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+copying meshes/right_wheel.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+copying meshes/base_link.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+copying urdf/Puzzlebot.urdf -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/urdf
+running install_egg_info
+removing '/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/puzzlebot/puzzlebot.egg-info to /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gazebo_topics_renamer script to /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot
+Installing hard_switch_control script to /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot
+Installing wheel_transforms_publisher script to /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot
+writing list of installed files to '/home/paolo/ros2_ws/build/puzzlebot/install.log'

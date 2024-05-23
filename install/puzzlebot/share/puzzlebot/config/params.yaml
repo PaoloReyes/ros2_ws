@@ -1,0 +1,22 @@
+wheel_transforms_publisher:
+  ros__parameters:
+    wheel_length: 0.1874
+    wheel_radius: 0.05
+
+gazebo_topics_renamer:
+  ros__parameters:
+    topics_map:
+      - from: /model/Puzzlebot/tf
+        to: /cmd_vel
+      - from: /model/Puzzlebot/odometry
+        to: /odom
+
+hard_switch_control:
+  ros__parameters:
+    KvP: 0.4
+    KthetaP: 0.55
+    wheel_length: 0.5
+    wheel_radius: 0.1
+    tolerance: 0.1
+    linear_acc: 0.3
+    angular_acc: 0.2

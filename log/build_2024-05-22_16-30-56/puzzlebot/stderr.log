@@ -1,0 +1,5 @@
+  File "/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/hard_switch_control.py", line 83
+    self.get_logger().info(f'Orientation: {self.orientation} Targte: {np.arctan2(self.goal[1] - self.position[1], self.goal[0] - self.position[0])},
+                           ^
+SyntaxError: unterminated string literal (detected at line 83)
+

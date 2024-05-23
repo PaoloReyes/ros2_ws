@@ -1,0 +1,8 @@
+hard_switch_control:
+  ros__parameters:
+    tolerance_distance: 0.1
+    angular_kp: 1.5
+    linear_kp: 0.60
+    angle_range: 1.0
+    linear_acc: 0.025
+    angular_acc: 0.3

@@ -1,0 +1,41 @@
+[0.932s] Invoking command in '/home/paolo/ros2_ws/src/puzzlebot': PYTHONPATH=/home/paolo/ros2_ws/build/puzzlebot/prefix_override:/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot build --build-base /home/paolo/ros2_ws/build/puzzlebot/build install --record /home/paolo/ros2_ws/build/puzzlebot/install.log --single-version-externally-managed install_data
+[1.163s] running egg_info
+[1.174s] writing ../../build/puzzlebot/puzzlebot.egg-info/PKG-INFO
+[1.175s] writing dependency_links to ../../build/puzzlebot/puzzlebot.egg-info/dependency_links.txt
+[1.175s] writing entry points to ../../build/puzzlebot/puzzlebot.egg-info/entry_points.txt
+[1.175s] writing requirements to ../../build/puzzlebot/puzzlebot.egg-info/requires.txt
+[1.175s] writing top-level names to ../../build/puzzlebot/puzzlebot.egg-info/top_level.txt
+[1.198s] reading manifest file '../../build/puzzlebot/puzzlebot.egg-info/SOURCES.txt'
+[1.198s] adding license file 'LICENSE'
+[1.200s] writing manifest file '../../build/puzzlebot/puzzlebot.egg-info/SOURCES.txt'
+[1.200s] running build
+[1.200s] running build_py
+[1.200s] copying puzzlebot/wheel_transforms_publisher.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot
+[1.201s] copying puzzlebot/__init__.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot
+[1.201s] copying puzzlebot/hard_switch_control.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot
+[1.201s] copying puzzlebot/submodules/__init__.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot/submodules
+[1.201s] copying puzzlebot/submodules/units_utils.py -> /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot/submodules
+[1.201s] running install
+[1.208s] running install_lib
+[1.219s] copying /home/paolo/ros2_ws/build/puzzlebot/build/lib/puzzlebot/hard_switch_control.py -> /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot
+[1.220s] byte-compiling /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/hard_switch_control.py to hard_switch_control.cpython-310.pyc
+[1.222s] running install_data
+[1.222s] copying resource/puzzlebot -> /home/paolo/ros2_ws/install/puzzlebot/share/ament_index/resource_index/packages
+[1.222s] copying package.xml -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot
+[1.222s] copying launch/hard_switch_obstacle_avoidance_launch.py -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/launch
+[1.222s] copying config/wheel_transforms_publisher.yaml -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config
+[1.222s] copying config/autonomous_robot_constants.yaml -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config
+[1.222s] copying meshes/left_wheel.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+[1.223s] copying meshes/crazy_wheel.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+[1.224s] copying meshes/right_wheel.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+[1.224s] copying meshes/base_link.STL -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes
+[1.232s] copying urdf/Puzzlebot.urdf -> /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/urdf
+[1.233s] running install_egg_info
+[1.247s] removing '/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.247s] Copying ../../build/puzzlebot/puzzlebot.egg-info to /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot-0.0.0-py3.10.egg-info
+[1.248s] running install_scripts
+[1.359s] Installing gazebo_topics_renamer script to /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot
+[1.359s] Installing hard_switch_control script to /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot
+[1.360s] Installing wheel_transforms_publisher script to /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot
+[1.360s] writing list of installed files to '/home/paolo/ros2_ws/build/puzzlebot/install.log'
+[1.443s] Invoked command in '/home/paolo/ros2_ws/src/puzzlebot' returned '0': PYTHONPATH=/home/paolo/ros2_ws/build/puzzlebot/prefix_override:/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot build --build-base /home/paolo/ros2_ws/build/puzzlebot/build install --record /home/paolo/ros2_ws/build/puzzlebot/install.log --single-version-externally-managed install_data

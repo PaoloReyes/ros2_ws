@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Puzzlebot">
+  <gazebo reference="base_link">
+    <material>Gazebo/Purple</material>
+  </gazebo>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0112928809697749 -0.000359620161457713 0.0230160650925797"
+        rpy="0 0 0" />
+      <mass
+        value="0.381673399498185" />
+      <inertia
+        ixx="0.000446058336648139"
+        ixy="2.71180735942949E-08"
+        ixz="8.18024513404888E-09"
+        iyy="0.000649095385488286"
+        iyz="1.44815012209094E-07"
+        izz="0.00108064397709053" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/base_link.STL" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <link
+    name="left_wheel">
+    <inertial>
+      <origin
+        xyz="1.23512311489549E-15 6.08642303223661E-12 -0.0172952461881855"
+        rpy="0 0 0" />
+      <mass
+        value="0.0270013549071306" />
+      <inertia
+        ixx="1.54357203032021E-05"
+        ixy="-2.22867451073998E-12"
+        ixz="-2.66721883395221E-20"
+        iyy="1.54357246301574E-05"
+        iyz="1.8690269508903E-19"
+        izz="3.06203871623884E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/left_wheel.STL" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/left_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.041134 0.074604 0.02"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_wheel" />
+    <axis
+      xyz="0 0 -1" />
+    <dynamics
+      friction="0.1" />
+  </joint>
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <link
+    name="right_wheel">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 6.08645512462092E-12 0.0172952483390891"
+        rpy="0 0 0" />
+      <mass
+        value="0.0270013549071307" />
+      <inertia
+        ixx="1.54357240333838E-05"
+        ixy="-2.68369528940185E-12"
+        ixz="2.04226880145721E-20"
+        iyy="1.5435720899976E-05"
+        iyz="-1.84669624616765E-19"
+        izz="3.06203871623887E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/right_wheel.STL" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/right_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.041134 -0.074596 0.02"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_wheel" />
+    <axis
+      xyz="0 0 -1" />
+    <dynamics
+      friction="0.1" />
+  </joint>
+  <gazebo reference="crazy_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <link
+    name="crazy_wheel">
+    <inertial>
+      <origin
+        xyz="-6.93889390390723E-18 0.0012843259755605 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00189178920470831" />
+      <inertia
+        ixx="4.62944118394314E-08"
+        ixy="-1.04615695797044E-23"
+        ixz="-1.44313065138348E-13"
+        iyy="6.29736402125678E-08"
+        iyz="1.91060858317638E-24"
+        izz="4.63436450436747E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/crazy_wheel.STL" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://puzzlebot/meshes/crazy_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="crazy_wheel_joint"
+    type="fixed">
+    <origin
+      xyz="-0.1049 0 -0.023791"
+      rpy="0 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="crazy_wheel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <link
+    name="lidar_link">
+    <inertial>
+      <origin
+        xyz="0.0 0.0 0.0"
+        rpy="0 0 0" />
+      <mass
+        value="0.01" />
+      <inertia
+        ixx="0.0001"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0001"
+        iyz="0.0"
+        izz="0.0001" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0.0 0.0 -0.025"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder
+          radius="0.035"
+          length="0.05" />
+      </geometry>
+      <material name="">
+        <color
+          rgba="0.3 0.0 0.8 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0.0 0.0 -0.025"
+        rpy="0 0 0" />
+      <geometry>
+        <cylinder
+          radius="0.035"
+          length="0.05" />
+      </geometry>
+      <material name="">
+        <color
+          rgba="0.3 0.0 0.8 1.0" />
+      </material>
+    </collision>
+  </link>
+
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="-0.08 0 0.09"
+      rpy="0 0.0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+
+  <gazebo reference='base_link'>
+    <sensor name='gpu_lidar' type='gpu_lidar'>"
+      <pose relative_to='lidar_link'>0 0 0 0 0 0</pose>
+      <topic>raw_lidar</topic>
+      <update_rate>40</update_rate>
+      <ray>
+          <scan>
+              <horizontal>
+                  <samples>240</samples>
+                  <resolution>1</resolution>
+                  <min_angle>-3.14</min_angle>
+                  <max_angle>3.14</max_angle>
+              </horizontal>
+          </scan>
+          <range>
+              <min>0.1</min>
+              <max>8.0</max>
+              <resolution>0.01</resolution>
+          </range>
+      </ray>
+      <always_on>1</always_on>
+      <visualize>true</visualize>
+    </sensor>
+  </gazebo>
+
+  <gazebo>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>  
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-diff-drive-system">
+      <!-- wheels -->
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+ 
+      <!-- kinematics -->
+      <wheel_separation>0.19</wheel_separation>
+      <wheel_radius>0.05</wheel_radius>
+    </plugin>
+  </gazebo>
+</robot>

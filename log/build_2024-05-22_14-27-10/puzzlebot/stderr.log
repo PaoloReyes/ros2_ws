@@ -1,0 +1,5 @@
+  File "/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/hard_switch_control.py", line 82
+    self.get_logger().info('Distance error: ' + str(self.distance_error) + ' Orientation error: ' + str(self.orientation_error)
+                          ^
+SyntaxError: '(' was never closed
+
