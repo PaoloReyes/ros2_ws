@@ -18,6 +18,7 @@ meshes/left_wheel.STL
 meshes/right_wheel.STL
 puzzlebot/__init__.py
 puzzlebot/hard_switch_control.py
+puzzlebot/lidar_transformer.py
 puzzlebot/wheel_transforms_publisher.py
 puzzlebot/submodules/__init__.py
 puzzlebot/submodules/units_utils.py

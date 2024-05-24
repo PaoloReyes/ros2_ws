@@ -67,6 +67,13 @@ def generate_launch_description() -> LaunchDescription:
                     ('/model/Puzzlebot/cmd_vel', '/cmd_vel'),]
     )
 
+    lidar_transformer = Node(
+        package=package_name,
+        executable='lidar_transformer',
+        name='lidar_transformer',
+        output='screen',
+    )
+
     hard_switch_control = Node(
         package=package_name,
         executable='hard_switch_control',
@@ -82,5 +89,6 @@ def generate_launch_description() -> LaunchDescription:
         gazebo,
         spawn,
         gz_bridge,
+        lidar_transformer,
         hard_switch_control,
     ])

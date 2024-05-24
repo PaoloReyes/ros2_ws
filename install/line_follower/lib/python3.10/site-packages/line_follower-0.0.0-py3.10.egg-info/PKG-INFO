@@ -1,12 +1,8 @@
 Metadata-Version: 2.1
-Name: line-follower
+Name: line_follower
 Version: 0.0.0
 Summary: TODO: Package description
-Home-page: UNKNOWN
 Maintainer: paolo
 Maintainer-email: paolo.alfonso.reyes@gmail.com
 License: TODO: License declaration
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools

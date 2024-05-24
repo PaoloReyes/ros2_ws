@@ -29,7 +29,7 @@ setup(
         'console_scripts': [
             'hard_switch_control = puzzlebot.hard_switch_control:main',
             'wheel_transforms_publisher = puzzlebot.wheel_transforms_publisher:main',
-            'gazebo_topics_renamer = puzzlebot.gazebo_topics_renamer:main'
+            'lidar_transformer = puzzlebot.lidar_transformer:main',
         ],
     },
 )

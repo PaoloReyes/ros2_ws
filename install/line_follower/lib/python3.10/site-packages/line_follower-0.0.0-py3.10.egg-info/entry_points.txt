@@ -1,4 +1,3 @@
 [console_scripts]
 line_follower = line_follower.line_follower:main
 traffic_light_identification = line_follower.traffic_light_identification:main
-

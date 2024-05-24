@@ -1,5 +1,4 @@
 [console_scripts]
-gazebo_topics_renamer = puzzlebot.gazebo_topics_renamer:main
 hard_switch_control = puzzlebot.hard_switch_control:main
+lidar_transformer = puzzlebot.lidar_transformer:main
 wheel_transforms_publisher = puzzlebot.wheel_transforms_publisher:main
-
