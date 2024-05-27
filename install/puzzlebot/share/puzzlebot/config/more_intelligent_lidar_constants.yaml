@@ -1,0 +1,4 @@
+vector_control:
+  ros__parameters:
+    lidar_angular_kp: 2.5
+    lidar_linear_kp: 0.001

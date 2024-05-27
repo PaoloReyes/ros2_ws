@@ -1,11 +1,13 @@
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/wheel_transforms_publisher.py
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/__init__.py
+/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/vector_control.py
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/hard_switch_control.py
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/lidar_transformer.py
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/submodules/__init__.py
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/submodules/units_utils.py
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/__pycache__/wheel_transforms_publisher.cpython-310.pyc
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/__pycache__/__init__.cpython-310.pyc
+/home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/__pycache__/vector_control.cpython-310.pyc
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/__pycache__/hard_switch_control.cpython-310.pyc
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/__pycache__/lidar_transformer.cpython-310.pyc
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot/submodules/__pycache__/__init__.cpython-310.pyc
@@ -13,6 +15,8 @@
 /home/paolo/ros2_ws/install/puzzlebot/share/ament_index/resource_index/packages/puzzlebot
 /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/package.xml
 /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/launch/hard_switch_obstacle_avoidance_launch.py
+/home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/launch/vector_control_launch.py
+/home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config/more_intelligent_lidar_constants.yaml
 /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config/wheel_transforms_publisher.yaml
 /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/config/autonomous_robot_constants.yaml
 /home/paolo/ros2_ws/install/puzzlebot/share/puzzlebot/meshes/left_wheel.STL
@@ -29,4 +33,5 @@
 /home/paolo/ros2_ws/install/puzzlebot/lib/python3.10/site-packages/puzzlebot-0.0.0-py3.10.egg-info/zip-safe
 /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot/hard_switch_control
 /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot/lidar_transformer
+/home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot/vector_control
 /home/paolo/ros2_ws/install/puzzlebot/lib/puzzlebot/wheel_transforms_publisher

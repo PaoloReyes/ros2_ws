@@ -1,0 +1,32 @@
+[2.761s] Invoking command in '/home/paolo/ros2_ws/src/robot_vision': PYTHONPATH=/home/paolo/ros2_ws/build/robot_vision/prefix_override:/home/paolo/ros2_ws/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/paolo/ros2_ws/build/robot_vision/build install --record /home/paolo/ros2_ws/build/robot_vision/install.log --single-version-externally-managed install_data
+[3.218s] running egg_info
+[3.243s] writing ../../build/robot_vision/robot_vision.egg-info/PKG-INFO
+[3.245s] writing dependency_links to ../../build/robot_vision/robot_vision.egg-info/dependency_links.txt
+[3.246s] writing entry points to ../../build/robot_vision/robot_vision.egg-info/entry_points.txt
+[3.246s] writing requirements to ../../build/robot_vision/robot_vision.egg-info/requires.txt
+[3.246s] writing top-level names to ../../build/robot_vision/robot_vision.egg-info/top_level.txt
+[3.296s] reading manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[3.298s] writing manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[3.299s] running build
+[3.299s] running build_py
+[3.299s] copying robot_vision/line_follower.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision
+[3.300s] copying robot_vision/__init__.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision
+[3.300s] copying robot_vision/line_follower_v3.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision
+[3.301s] copying robot_vision/line_follower_v2.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision
+[3.301s] copying robot_vision/submodules/line_class.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision/submodules
+[3.302s] copying robot_vision/submodules/__init__.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision/submodules
+[3.302s] copying robot_vision/submodules/functions.py -> /home/paolo/ros2_ws/build/robot_vision/build/lib/robot_vision/submodules
+[3.303s] running install
+[3.315s] running install_lib
+[3.347s] running install_data
+[3.347s] copying resource/robot_vision -> /home/paolo/ros2_ws/install/robot_vision/share/ament_index/resource_index/packages
+[3.348s] copying package.xml -> /home/paolo/ros2_ws/install/robot_vision/share/robot_vision
+[3.348s] running install_egg_info
+[3.376s] removing '/home/paolo/ros2_ws/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[3.377s] Copying ../../build/robot_vision/robot_vision.egg-info to /home/paolo/ros2_ws/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info
+[3.381s] running install_scripts
+[3.611s] Installing line_follower script to /home/paolo/ros2_ws/install/robot_vision/lib/robot_vision
+[3.611s] Installing line_follower_v2 script to /home/paolo/ros2_ws/install/robot_vision/lib/robot_vision
+[3.612s] Installing line_follower_v3 script to /home/paolo/ros2_ws/install/robot_vision/lib/robot_vision
+[3.613s] writing list of installed files to '/home/paolo/ros2_ws/build/robot_vision/install.log'
+[3.727s] Invoked command in '/home/paolo/ros2_ws/src/robot_vision' returned '0': PYTHONPATH=/home/paolo/ros2_ws/build/robot_vision/prefix_override:/home/paolo/ros2_ws/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/paolo/ros2_ws/build/robot_vision/build install --record /home/paolo/ros2_ws/build/robot_vision/install.log --single-version-externally-managed install_data

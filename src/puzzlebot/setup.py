@@ -30,6 +30,7 @@ setup(
             'hard_switch_control = puzzlebot.hard_switch_control:main',
             'wheel_transforms_publisher = puzzlebot.wheel_transforms_publisher:main',
             'lidar_transformer = puzzlebot.lidar_transformer:main',
+            'vector_control = puzzlebot.vector_control:main',
         ],
     },
 )

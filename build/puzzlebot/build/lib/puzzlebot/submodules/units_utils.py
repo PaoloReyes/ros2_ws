@@ -19,3 +19,13 @@ def quaternion_from_euler(roll, pitch, yaw):
 def get_z_rotation_from_quaternion(x, y, z, w):
 	rotation_z = np.arctan2(2*(w*z + x*y), 1 - 2*(y**2 + z**2))
 	return rotation_z
+
+def polar_to_cartesian(r, theta):
+	x = r*np.cos(theta)
+	y = r*np.sin(theta)
+	return (x, y)
+
+def cartesian_to_polar(vector):
+	r = np.sqrt(vector[0]**2 + vector[1]**2)
+	theta = np.arctan2(vector[1], vector[0])
+	return (r, theta)

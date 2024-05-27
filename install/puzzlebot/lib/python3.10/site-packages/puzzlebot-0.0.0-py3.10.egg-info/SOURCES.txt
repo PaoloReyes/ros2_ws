@@ -10,8 +10,10 @@ setup.py
 ../../build/puzzlebot/puzzlebot.egg-info/top_level.txt
 ../../build/puzzlebot/puzzlebot.egg-info/zip-safe
 config/autonomous_robot_constants.yaml
+config/more_intelligent_lidar_constants.yaml
 config/wheel_transforms_publisher.yaml
 launch/hard_switch_obstacle_avoidance_launch.py
+launch/vector_control_launch.py
 meshes/base_link.STL
 meshes/crazy_wheel.STL
 meshes/left_wheel.STL
@@ -19,6 +21,7 @@ meshes/right_wheel.STL
 puzzlebot/__init__.py
 puzzlebot/hard_switch_control.py
 puzzlebot/lidar_transformer.py
+puzzlebot/vector_control.py
 puzzlebot/wheel_transforms_publisher.py
 puzzlebot/submodules/__init__.py
 puzzlebot/submodules/units_utils.py
